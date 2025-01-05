@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.links {
+    padding: 5px;
+}
