@@ -12,9 +12,12 @@ body {
 }
 
 .links,
-.links a {
-    padding: 5px;
+.links a,
+.return-link {
     text-decoration: none;
+}
+#dir-link {
+    padding: 5px;
 }
 
 .image {
