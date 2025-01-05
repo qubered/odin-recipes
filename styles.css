@@ -14,3 +14,8 @@ body {
 .links {
     padding: 5px;
 }
+
+.image {
+    height: 250px;
+    width: auto;
+}
