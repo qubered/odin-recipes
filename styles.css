@@ -1,3 +1,9 @@
+html {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,19 +17,72 @@ body {
     text-align: center;
 }
 
-.links,
-.links a,
-.return-link {
+.links a {
     text-decoration: none;
-}
-#dir-link {
-    padding: 5px;
 }
 
 .image {
     height: 250px;
     width: auto;
+    border-radius: 50px;
+}
+
+.menu {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+
+}
+
+.menu a {
+    margin: 20px;
+}
+
+.main {
+    margin: 0px auto;
+    width: 1000px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 35px;
+    margin-bottom: 50px;
+}
+
+.main h3 {
+    margin-bottom: 5px;
+}
+.main ul,
+.main ol {
+    margin-top: 0px;
+}
+.main li {
+    margin: 3px 0px;
+}
+
+.main a {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+.main p {
+    padding-left: 20px;
+}
+
+.main .heroImage {
+    display: block;
+    border-radius: 15px;
+    width: 800px;
+    height: 250px;
+    margin: 0 auto;
+    object-fit: cover;
+
+}
+
+.menu #selected {
+    font-weight: bolder;
+    color: black;
 }
